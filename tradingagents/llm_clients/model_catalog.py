@@ -112,6 +112,16 @@ MODEL_OPTIONS: ProviderModeOptions = {
             ("Qwen3:latest (8B, local)", "qwen3:latest"),
         ],
     },
+    "minimax": {
+        "quick": [
+            ("MiniMax M2.7 - Latest flagship model", "MiniMax-M2.7"),
+            ("Custom model ID", "custom"),
+        ],
+        "deep": [
+            ("MiniMax M2.7 - Latest flagship model", "MiniMax-M2.7"),
+            ("Custom model ID", "custom"),
+        ],
+    },
 }
 
 
