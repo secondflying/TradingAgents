@@ -657,7 +657,7 @@ docker compose --profile ollama run --rm tradingagents-ollama
 tradingagents
 
 # 或直接运行
-python -m cli.main
+uv run python -m cli.main
 ```
 
 CLI 界面支持：
